@@ -8,8 +8,8 @@ class PublicController {
       ignoreChars: '0oO1i',
       noise: Math.floor(Math.random * 5),
       color: true,
-      width: 150,
-      height: 50
+      width: 114,
+      height: 38
     })
     ctx.body = {
       code: 200,
